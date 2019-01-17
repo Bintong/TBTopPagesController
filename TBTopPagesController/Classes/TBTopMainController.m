@@ -17,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.navigationController.navigationItem setHidesBackButton:YES];
+
     [self buildMainView];
     // Do any additional setup after loading the view.
 }

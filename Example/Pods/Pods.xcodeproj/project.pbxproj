@@ -7,24 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03FAFF06DC2BD95C2FC7858D03D314E5 /* TBBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2EC0C6A54D2D8B174164A243E1C645 /* TBBViewController.m */; };
 		069CF5F4B84588AAC977FF8EE1586982 /* Pods-TBTopPagesController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE8ABE2D6CF18CC598838E81F854E9 /* Pods-TBTopPagesController_Tests-dummy.m */; };
 		0B7530F0F65709CFEA230472908E8E45 /* Pods-TBTopPagesController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4E4B3874BA0F5B754B461FE0F58066 /* Pods-TBTopPagesController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D4207D06B6D2F56F384D989A11E200A /* TBTopMainController.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F4470402ACCE0465FAD40D8A91EC20 /* TBTopMainController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C1056F0CB41DA95EC53545A44E156F9 /* TBTopPagesController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FAA26C635F26AE04E9DAD359734A08 /* TBTopPagesController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C3F83B5BB2684CF371929332368217A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		2759A104271A90A72465ED821E3C0387 /* TBAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6395EFB60E111A8E39E33A2EC23E3BE8 /* TBAViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3069F05D34574B5CD382480BE6B4FD5C /* Pods-TBTopPagesController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5ADF2ACB9A8B738875BDD577AD63EC8 /* Pods-TBTopPagesController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FF75835F6DE297B602DD32FDFE6BC81 /* Pods-TBTopPagesController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BC160B566EC969D48E88872B13282 /* Pods-TBTopPagesController_Example-dummy.m */; };
 		685629D2B7DDFDB37EC35C780929DF37 /* TBTopPagesController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A34214A6824B8FC5F69BEA714ECE39 /* TBTopPagesController-dummy.m */; };
 		6AF19B5CCB75963A477C022997F85D6E /* TBSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 085E99A5DEE01242F8B9159D74A19E53 /* TBSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C3524A508A34737A802E07930BDFD2 /* TBTopMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EA225982A4426DF9316A5331620E78 /* TBTopMainController.m */; };
-		8BD4C583537A7640995F8C6963F6D7DF /* TBAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A239271092A277F55B6D1569A07A05 /* TBAViewController.m */; };
 		A806BA9C156E0978FC32520521BFA08F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		AA49B899EA87CA0E6F4B78E863525B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		CDF8DF0ABFE5D2388C7CEF8493F13C1B /* TBSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2FE712CE81FADC1334FEA041E3923 /* TBSegmentControl.m */; };
 		DF253F886F2AA605837215F8059179A0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F93F4CCF2D4A49B4F1CC8538B0B36A /* ReplaceMe.m */; };
-		FE77B40C930F87C124BA5C204780D007 /* TBBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B203D0C41817DA176BB1B78EBB48BE /* TBBViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		0263252863D556B2BAEF2815C57192B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02B203D0C41817DA176BB1B78EBB48BE /* TBBViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBBViewController.h; path = TBTopPagesController/Classes/TBBViewController.h; sourceTree = "<group>"; };
 		04633AF10EA070C5D88C21EFAC1E6C18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A34214A6824B8FC5F69BEA714ECE39 /* TBTopPagesController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBTopPagesController-dummy.m"; sourceTree = "<group>"; };
 		070F398FA1E53044FDA600EDE0DE5B5A /* Pods-TBTopPagesController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBTopPagesController_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -55,37 +50,34 @@
 		098BFF73D56DF61CC1A1CEA177E27CE7 /* Pods-TBTopPagesController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBTopPagesController_Tests-resources.sh"; sourceTree = "<group>"; };
 		0C3BC160B566EC969D48E88872B13282 /* Pods-TBTopPagesController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBTopPagesController_Example-dummy.m"; sourceTree = "<group>"; };
 		1133EB51348681E3D557B1435922D4F3 /* Pods-TBTopPagesController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBTopPagesController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1EB66F8F0216B6666F27F820E4BD2DB5 /* TBTopPagesController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBTopPagesController.framework; path = TBTopPagesController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB66F8F0216B6666F27F820E4BD2DB5 /* TBTopPagesController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBTopPagesController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F2FE712CE81FADC1334FEA041E3923 /* TBSegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBSegmentControl.m; path = TBTopPagesController/Classes/TBSegmentControl.m; sourceTree = "<group>"; };
-		2E5E146B1EDC02AAF1B4EFB02456325D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2E5E146B1EDC02AAF1B4EFB02456325D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3489085BC2A34EBEFD6519B8858304EB /* Pods-TBTopPagesController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBTopPagesController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		38CC1B560E2B2DD7582C4DB3D4A35D2A /* TBTopPagesController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBTopPagesController.modulemap; sourceTree = "<group>"; };
 		3ADE8ABE2D6CF18CC598838E81F854E9 /* Pods-TBTopPagesController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBTopPagesController_Tests-dummy.m"; sourceTree = "<group>"; };
-		459051F9A2FB130DA27A4F3F01F8DA91 /* Pods_TBTopPagesController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBTopPagesController_Example.framework; path = "Pods-TBTopPagesController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		459051F9A2FB130DA27A4F3F01F8DA91 /* Pods_TBTopPagesController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBTopPagesController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF6FD42133D8DE89D1F4017CA6F313C /* TBTopPagesController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBTopPagesController.xcconfig; sourceTree = "<group>"; };
 		4F9CE080652D2EDEC48B0BFFE5031093 /* Pods-TBTopPagesController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBTopPagesController_Example.modulemap"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C2EC0C6A54D2D8B174164A243E1C645 /* TBBViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBBViewController.m; path = TBTopPagesController/Classes/TBBViewController.m; sourceTree = "<group>"; };
 		5F50B98DD3F57D1E68BE93DA8FFC2326 /* Pods-TBTopPagesController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBTopPagesController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6395EFB60E111A8E39E33A2EC23E3BE8 /* TBAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBAViewController.h; path = TBTopPagesController/Classes/TBAViewController.h; sourceTree = "<group>"; };
 		70F93F4CCF2D4A49B4F1CC8538B0B36A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TBTopPagesController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		7E34BF92FF68EF7FC6CD840D684F1807 /* Pods-TBTopPagesController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBTopPagesController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		83FA157F3C4BA8830D3195C44FDDC0AF /* TBTopPagesController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBTopPagesController-prefix.pch"; sourceTree = "<group>"; };
 		84FAA26C635F26AE04E9DAD359734A08 /* TBTopPagesController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBTopPagesController-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9766C09994458B0E2DF60FB0ADD632A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3A3436EACCEDF5C379F0179E5D44288 /* Pods-TBTopPagesController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBTopPagesController_Example-resources.sh"; sourceTree = "<group>"; };
 		AF3E59D01AB84B16BBFD20A73796F4E6 /* Pods-TBTopPagesController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBTopPagesController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6B52613FCF96A533CF9B92F3D1241FA /* Pods-TBTopPagesController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBTopPagesController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BB1C2258FE0EB8131B0AC6482F2E0047 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C3A239271092A277F55B6D1569A07A05 /* TBAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBAViewController.m; path = TBTopPagesController/Classes/TBAViewController.m; sourceTree = "<group>"; };
+		BB1C2258FE0EB8131B0AC6482F2E0047 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C8F4470402ACCE0465FAD40D8A91EC20 /* TBTopMainController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTopMainController.h; path = TBTopPagesController/Classes/TBTopMainController.h; sourceTree = "<group>"; };
 		F1EA225982A4426DF9316A5331620E78 /* TBTopMainController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTopMainController.m; path = TBTopPagesController/Classes/TBTopMainController.m; sourceTree = "<group>"; };
 		F48ABA9227252DCABBC92FAA16D16416 /* Pods-TBTopPagesController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBTopPagesController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5ADF2ACB9A8B738875BDD577AD63EC8 /* Pods-TBTopPagesController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBTopPagesController_Example-umbrella.h"; sourceTree = "<group>"; };
-		F5D5B74ADD454E5F69CF8B888BD809C2 /* Pods_TBTopPagesController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBTopPagesController_Tests.framework; path = "Pods-TBTopPagesController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D5B74ADD454E5F69CF8B888BD809C2 /* Pods_TBTopPagesController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBTopPagesController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60BFE0F1B8B3E01C9C454E4055846D6 /* Pods-TBTopPagesController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBTopPagesController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F9976CC9768708F5CC04670F8C2D5EF3 /* TBTopPagesController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TBTopPagesController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9976CC9768708F5CC04670F8C2D5EF3 /* TBTopPagesController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TBTopPagesController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA4E4B3874BA0F5B754B461FE0F58066 /* Pods-TBTopPagesController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBTopPagesController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FA54A5EE5E5CB33557C537943D517E70 /* Pods-TBTopPagesController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBTopPagesController_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,10 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				70F93F4CCF2D4A49B4F1CC8538B0B36A /* ReplaceMe.m */,
-				6395EFB60E111A8E39E33A2EC23E3BE8 /* TBAViewController.h */,
-				C3A239271092A277F55B6D1569A07A05 /* TBAViewController.m */,
-				02B203D0C41817DA176BB1B78EBB48BE /* TBBViewController.h */,
-				5C2EC0C6A54D2D8B174164A243E1C645 /* TBBViewController.m */,
 				085E99A5DEE01242F8B9159D74A19E53 /* TBSegmentControl.h */,
 				27F2FE712CE81FADC1334FEA041E3923 /* TBSegmentControl.m */,
 				C8F4470402ACCE0465FAD40D8A91EC20 /* TBTopMainController.h */,
@@ -274,8 +262,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2759A104271A90A72465ED821E3C0387 /* TBAViewController.h in Headers */,
-				FE77B40C930F87C124BA5C204780D007 /* TBBViewController.h in Headers */,
 				6AF19B5CCB75963A477C022997F85D6E /* TBSegmentControl.h in Headers */,
 				0D4207D06B6D2F56F384D989A11E200A /* TBTopMainController.h in Headers */,
 				1C1056F0CB41DA95EC53545A44E156F9 /* TBTopPagesController-umbrella.h in Headers */,
@@ -372,8 +358,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF253F886F2AA605837215F8059179A0 /* ReplaceMe.m in Sources */,
-				8BD4C583537A7640995F8C6963F6D7DF /* TBAViewController.m in Sources */,
-				03FAFF06DC2BD95C2FC7858D03D314E5 /* TBBViewController.m in Sources */,
 				CDF8DF0ABFE5D2388C7CEF8493F13C1B /* TBSegmentControl.m in Sources */,
 				86C3524A508A34737A802E07930BDFD2 /* TBTopMainController.m in Sources */,
 				685629D2B7DDFDB37EC35C780929DF37 /* TBTopPagesController-dummy.m in Sources */,

@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     TBTopMainController *vc = [[TBTopMainController alloc] init];
     TBAViewController *allList = [[TBAViewController alloc] init];
     TBBViewController *meList = [[TBBViewController alloc] init];
@@ -29,19 +29,8 @@
     vc.titleColor = [UIColor blackColor];
     [vc setTitles:@[@"页面1",@"页面2"]];
     [vc setViewControllers:@[allList, meList]];
-    [self.navigationController pushViewController:vc animated:YES];
     
-    // Do any additional setup after loading the view from its nib.
+    [self.navigationController pushViewController:vc animated:YES];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
