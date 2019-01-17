@@ -17,11 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.navigationController.navigationItem setHidesBackButton:YES];
+    self.automaticallyAdjustsScrollViewInsets = NO;
+
 
     [self buildMainView];
+
     // Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    self.navigationItem.hidesBackButton = YES;
 }
 
 

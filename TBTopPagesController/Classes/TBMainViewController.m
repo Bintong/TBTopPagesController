@@ -29,7 +29,7 @@
     vc.titleColor = [UIColor blackColor];
     [vc setTitles:@[@"页面1",@"页面2"]];
     [vc setViewControllers:@[allList, meList]];
-    
+     
     [self.navigationController pushViewController:vc animated:YES];
 }
 
