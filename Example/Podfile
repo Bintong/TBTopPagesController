@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TBTopPagesController_Example' do
+  pod 'TBTopPagesController', :path => '../'
+
+  target 'TBTopPagesController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
