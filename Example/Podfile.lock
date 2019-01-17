@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TBTopPagesController: f46e3ace5484ab340ccb959253c1019c145bad65
+  TBTopPagesController: ad3ff04efbef8013f37112cc4302112bc8c2abd6
 
 PODFILE CHECKSUM: 79baca6588aa729b1d987891385ce464f4a970fc
 

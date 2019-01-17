@@ -23,6 +23,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A677BCBB21F08536006632F4 /* TBAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677BCBA21F08536006632F4 /* TBAViewController.m */; };
+		A677BCBE21F08581006632F4 /* TBBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677BCBD21F08581006632F4 /* TBBViewController.m */; };
+		A677BCC221F08E2A006632F4 /* TBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677BCC021F08E2A006632F4 /* TBMainViewController.m */; };
+		A677BCC321F08E2A006632F4 /* TBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A677BCC121F08E2A006632F4 /* TBMainViewController.xib */; };
 		E0FA2E5E55B8C23A3309FDFA /* Pods_TBTopPagesController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB7A626097E00EDFBBAFBFC /* Pods_TBTopPagesController_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,11 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04CA3518ED8EFA60072905FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04CA3518ED8EFA60072905FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0709FCD46B27BA0549575F6D /* Pods-TBTopPagesController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBTopPagesController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBTopPagesController_Tests/Pods-TBTopPagesController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0BBF7281FB30E878073477D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0BBF7281FB30E878073477D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		332EBD53C5A4C6712255CED3 /* Pods-TBTopPagesController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBTopPagesController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBTopPagesController_Example/Pods-TBTopPagesController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		34ED045842EF796CA819F83F /* TBTopPagesController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TBTopPagesController.podspec; path = ../TBTopPagesController.podspec; sourceTree = "<group>"; };
+		34ED045842EF796CA819F83F /* TBTopPagesController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBTopPagesController.podspec; path = ../TBTopPagesController.podspec; sourceTree = "<group>"; };
 		3BAE1AAFF60238774405ED08 /* Pods-TBTopPagesController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBTopPagesController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBTopPagesController_Tests/Pods-TBTopPagesController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3FB7A626097E00EDFBBAFBFC /* Pods_TBTopPagesController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBTopPagesController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TBTopPagesController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBTopPagesController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +71,13 @@
 		793610D2D448F765760F8438 /* Pods_TBTopPagesController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBTopPagesController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1BB27EC8CD9A9C1F1F10F1 /* Pods-TBTopPagesController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBTopPagesController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBTopPagesController_Example/Pods-TBTopPagesController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A677BCB921F08536006632F4 /* TBAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TBAViewController.h; path = ../../TBTopPagesController/Classes/TBAViewController.h; sourceTree = "<group>"; };
+		A677BCBA21F08536006632F4 /* TBAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TBAViewController.m; path = ../../TBTopPagesController/Classes/TBAViewController.m; sourceTree = "<group>"; };
+		A677BCBC21F08581006632F4 /* TBBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TBBViewController.h; path = ../../TBTopPagesController/Classes/TBBViewController.h; sourceTree = "<group>"; };
+		A677BCBD21F08581006632F4 /* TBBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TBBViewController.m; path = ../../TBTopPagesController/Classes/TBBViewController.m; sourceTree = "<group>"; };
+		A677BCBF21F08E2A006632F4 /* TBMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TBMainViewController.h; path = ../../TBTopPagesController/Classes/TBMainViewController.h; sourceTree = "<group>"; };
+		A677BCC021F08E2A006632F4 /* TBMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TBMainViewController.m; path = ../../TBTopPagesController/Classes/TBMainViewController.m; sourceTree = "<group>"; };
+		A677BCC121F08E2A006632F4 /* TBMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TBMainViewController.xib; path = ../../TBTopPagesController/Classes/TBMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +145,16 @@
 			children = (
 				6003F59C195388D20070C39A /* TBAppDelegate.h */,
 				6003F59D195388D20070C39A /* TBAppDelegate.m */,
+				A677BCBF21F08E2A006632F4 /* TBMainViewController.h */,
+				A677BCC021F08E2A006632F4 /* TBMainViewController.m */,
+				A677BCC121F08E2A006632F4 /* TBMainViewController.xib */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TBViewController.h */,
 				6003F5A6195388D20070C39A /* TBViewController.m */,
+				A677BCB921F08536006632F4 /* TBAViewController.h */,
+				A677BCBA21F08536006632F4 /* TBAViewController.m */,
+				A677BCBC21F08581006632F4 /* TBBViewController.h */,
+				A677BCBD21F08581006632F4 /* TBBViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -279,6 +297,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				A677BCC321F08E2A006632F4 /* TBMainViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,9 +386,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A677BCBB21F08536006632F4 /* TBAViewController.m in Sources */,
 				6003F59E195388D20070C39A /* TBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TBViewController.m in Sources */,
+				A677BCBE21F08581006632F4 /* TBBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A677BCC221F08E2A006632F4 /* TBMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,25 +1,25 @@
 //
-//  TBViewController.m
-//  TBTopPagesController
+//  TBMainViewController.m
+//  TBTopPagesController_Example
 //
-//  Created by yaxun_123@163.com on 01/17/2019.
-//  Copyright (c) 2019 yaxun_123@163.com. All rights reserved.
+//  Created by BinTong on 2019/1/17.
+//  Copyright © 2019 yaxun_123@163.com. All rights reserved.
 //
 
-#import "TBViewController.h"
+#import "TBMainViewController.h"
 #import "TBTopMainController.h"
 #import "TBAViewController.h"
 #import "TBBViewController.h"
 
-@interface TBViewController ()
+@interface TBMainViewController ()
 
 @end
 
-@implementation TBViewController
+@implementation TBMainViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    
     TBTopMainController *vc = [[TBTopMainController alloc] init];
     TBAViewController *allList = [[TBAViewController alloc] init];
     TBBViewController *meList = [[TBBViewController alloc] init];
@@ -30,12 +30,18 @@
     [vc setTitles:@[@"页面1",@"页面2"]];
     [vc setViewControllers:@[allList, meList]];
     [self.navigationController pushViewController:vc animated:YES];
+    
+    // Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
+*/
 
 @end

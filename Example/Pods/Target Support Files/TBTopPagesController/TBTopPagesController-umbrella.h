@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "TBAViewController.h"
+#import "TBBViewController.h"
+#import "TBSegmentControl.h"
+#import "TBTopMainController.h"
 
 FOUNDATION_EXPORT double TBTopPagesControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char TBTopPagesControllerVersionString[];
