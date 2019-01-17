@@ -1,0 +1,22 @@
+{
+  "name": "TBTopPagesController",
+  "version": "0.1.0",
+  "summary": "A short description of TBTopPagesController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yaxun_123@163.com/TBTopPagesController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yaxun_123@163.com": "bin.tong@bitmain.com"
+  },
+  "source": {
+    "git": "https://github.com/yaxun_123@163.com/TBTopPagesController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TBTopPagesController/Classes/**/*"
+}

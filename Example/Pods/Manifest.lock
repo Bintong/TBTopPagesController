@@ -1,0 +1,16 @@
+PODS:
+  - TBTopPagesController (0.1.0)
+
+DEPENDENCIES:
+  - TBTopPagesController (from `../`)
+
+EXTERNAL SOURCES:
+  TBTopPagesController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TBTopPagesController: f46e3ace5484ab340ccb959253c1019c145bad65
+
+PODFILE CHECKSUM: 79baca6588aa729b1d987891385ce464f4a970fc
+
+COCOAPODS: 1.5.3
