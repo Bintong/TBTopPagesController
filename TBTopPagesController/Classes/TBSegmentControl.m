@@ -49,7 +49,6 @@
         self.layer.masksToBounds = YES;
         self.backgroundColor = [UIColor whiteColor];
     }
-    
     return self;
 }
 
@@ -61,7 +60,7 @@
 #pragma mark setter/getter方法
 
 /**
- *  设置按钮标题数组
+ *  设置按钮标题数组--最后一步
  */
 - (void)setTitles:(NSArray *)titles
 {
@@ -96,23 +95,6 @@
 
 
 
-
-/**
- *  设置按钮上文字颜色
- */
-- (void)setTitleColor:(UIColor *)titleColor {
-    _titleColor = titleColor;
-    
-    for (int i = 0; i < _btnCount; i++) {
-        TBSegmentButton *btn = self.buttons[i];
-        [btn setTitleColor:_titleColor forState:UIControlStateNormal];
-        [btn setTitleColor:_titleColor forState:UIControlStateHighlighted];
-    }
-    
-    // 如果不设置backgroundColor，第一个按钮的文字颜色就会被设置为默认颜色
-    [_currentBtn setTitleColor:DefaultCurrentBtnColor forState:UIControlStateNormal];
-}
-
 /**
  *  设置背景色
  */
@@ -130,9 +112,6 @@
     _btnWidth = self.frame.size.width / _btnCount;
     CGFloat btnHeight = self.frame.size.height;
     
-    // 指示视图
-    
-    
     // 创建各个按钮
     for (int i = 0; i < _btnCount; i++)
     {
@@ -141,33 +120,37 @@
         [btn setTitle:self.titles[i] forState:UIControlStateNormal];
         btn.titleLabel.font = [UIFont boldSystemFontOfSize:17.0f];
         btn.tag = i;
+        
+        [btn setTitleColor:_titleColor forState:UIControlStateNormal];
+        [btn setTitleColor:_titleColor forState:UIControlStateHighlighted];
+        
         [btn addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
         
         [self addSubview:btn];
         
         [self.buttons addObject:btn]; // 加入数组
     }
+    
+    _currentBtn = (TBSegmentButton *)self.buttons[0];
+
+    if (_titleSelectColor) {
+        [_currentBtn setTitleColor:_titleSelectColor forState:UIControlStateNormal];
+        [_currentBtn setTitleColor:_titleSelectColor forState:UIControlStateHighlighted];
+    }else {
+        [_currentBtn setTitleColor:DefaultCurrentBtnColor forState:UIControlStateNormal];
+    }
     _indicatorView = [[UIView alloc] initWithFrame:CGRectMake(0,btnHeight - 4, _btnWidth, 4)];
-    _indicatorView.backgroundColor = _indicatorViewColor;
+
     
     UIView *indicatorSubView = [[UIView alloc] initWithFrame:CGRectMake((_btnWidth - 30)/2, 0, 30, 4)];
+    indicatorSubView.backgroundColor = _indicatorViewColor;
     indicatorSubView.layer.cornerRadius = 2;
-    indicatorSubView.backgroundColor = [UIColor colorWithRed:54/255.0 green:116/255.0 blue:225/255.0 alpha:1];
+    
     [_indicatorView addSubview:indicatorSubView];
-    
-    
-    
     [self addSubview:_indicatorView];
-    // 第一个设置字体颜色
-    _currentBtn = (TBSegmentButton *)self.buttons[0];
-    // 如果不设置backgroundColor，第一个按钮的文字颜色就会被设置为默认颜色
-    [_currentBtn setTitleColor:DefaultCurrentBtnColor forState:UIControlStateNormal];
 }
 
-
-
 #pragma mark self的触摸事件处理
-
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -241,15 +224,19 @@
 }
 
 /** 选开始的设置，指示视图变暗，字体颜色改变 */
-- (void)selectedBegan
-{
-    
+- (void)selectedBegan{
     [_currentBtn setTitleColor:self.titleColor forState:UIControlStateNormal];
 }
 
 /** 选开始的设置 */
 - (void)selectedEnd {
-    UIColor *color = [UIColor blackColor];
+    UIColor *color = nil;
+    if (self.titleSelectColor) {
+        color = _titleSelectColor;
+    }else {
+         color = [UIColor blackColor];
+    }
+    
     [_currentBtn setTitleColor:color forState:UIControlStateNormal];
 }
 

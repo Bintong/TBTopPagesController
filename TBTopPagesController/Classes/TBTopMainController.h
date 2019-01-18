@@ -23,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  segment每一项的文字颜色
  */
 @property (nonatomic, strong) UIColor *titleColor;
+/** 选中时的按钮文字颜色 */
+@property (nonatomic, strong) UIColor *titleSelectColor;
 /** segment每一项的宽 */
 @property (nonatomic, assign) CGFloat itemWidth;
 /** segment每一项的高 */

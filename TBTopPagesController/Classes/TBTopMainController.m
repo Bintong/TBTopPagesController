@@ -31,29 +31,24 @@
 
 
 - (void)buildMainView {
-//    if (self.viewControllers.count > 2) {
-//        if (self.titles.count > 2) {
-//
-//        }
-//    }
-
     if (self.titleColor == nil) {
         self.titleColor = [UIColor blackColor];
     }
-    
     _itemWidth = 60.0f;
     _segment = [[TBSegmentControl alloc] initWithFrame:CGRectMake(0, 0, _itemWidth * 3, 30.0f)];
-    _segment.titles = self.titles;
     _segment.controllers = self.viewControllers;
     _segment.cornerRadius = 5.0f;
     _segment.titleColor = self.titleColor;
     _segment.indicatorViewColor = self.indicatorViewColor;
+    _segment.titleSelectColor = self.titleSelectColor;
     _segment.backgroundColor = self.segmentBgColor;
+    
     _segment.superViewController = self;
     _segment.delegate = self;
+    _segment.titles = self.titles;
+
     self.navigationItem.titleView = _segment;
     [_segment makeOther];
-    
 }
 
 #pragma mark - JRSegmentControlDelegate

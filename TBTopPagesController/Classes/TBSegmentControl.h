@@ -44,6 +44,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIColor *indicatorViewColor;
 /** 未选中时的按钮文字颜色 */
 @property (nonatomic, strong) UIColor *titleColor;
+/** 选中时的按钮文字颜色 */
+@property (nonatomic, strong) UIColor *titleSelectColor;
+
 @property (nonatomic, weak) id<TBSegmentControlDelegate> delegate;
 @property (nonatomic, strong) UIScrollView *contentScrollView;
 /** 设置segment的索引为index的按钮处于选中状态 */
