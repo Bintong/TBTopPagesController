@@ -35,7 +35,6 @@
     vc.titleSelectColor = TBColorFromRGB(0x333333);
     [vc setTitles:@[@"精选",@"发现",@"好友圈"]];
     [vc setViewControllers:@[allList, meList,cCV]];
-    
     [self.navigationController pushViewController:vc animated:YES];
 }
 
