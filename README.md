@@ -15,13 +15,13 @@ This library requires `iOS 9.0+` and `Xcode 8.0+`.
 
 ## Installation
 
-TBTopPagesController 通过 [CocoaPods](https://cocoapods.org)方式安装项目中
+### Installation with CocoaPods
 
 ```ruby
 pod 'TBTopPagesController'
 ```
 
-同事可以直接拖拽文件
+### Manually
 
 ```objective-c
 TBSegmentControl.h
@@ -30,7 +30,7 @@ TBTopMainController.h
 TBTopMainController.m
 ```
 
-在项目中直接import TBTopmainController.h～～～
+Copy Some specific class file to your projec
 
 ## Usage
 
