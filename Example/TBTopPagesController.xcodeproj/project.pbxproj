@@ -22,11 +22,11 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A677BCC221F08E2A006632F4 /* TBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677BCC021F08E2A006632F4 /* TBMainViewController.m */; };
-		A677BCC321F08E2A006632F4 /* TBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A677BCC121F08E2A006632F4 /* TBMainViewController.xib */; };
 		A677BCC621F0D715006632F4 /* TBAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677BCC521F0D715006632F4 /* TBAViewController.m */; };
 		A677BCC921F0D720006632F4 /* TBBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677BCC821F0D720006632F4 /* TBBViewController.m */; };
 		A677BCCC21F1A8F7006632F4 /* TBCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677BCCB21F1A8F7006632F4 /* TBCViewController.m */; };
+		A677BCD121F38339006632F4 /* TBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677BCCE21F38338006632F4 /* TBMainViewController.m */; };
+		A677BCD221F38339006632F4 /* TBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A677BCCF21F38338006632F4 /* TBMainViewController.xib */; };
 		E0FA2E5E55B8C23A3309FDFA /* Pods_TBTopPagesController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB7A626097E00EDFBBAFBFC /* Pods_TBTopPagesController_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,15 +69,15 @@
 		793610D2D448F765760F8438 /* Pods_TBTopPagesController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBTopPagesController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1BB27EC8CD9A9C1F1F10F1 /* Pods-TBTopPagesController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBTopPagesController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBTopPagesController_Example/Pods-TBTopPagesController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A677BCBF21F08E2A006632F4 /* TBMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TBMainViewController.h; path = ../../TBTopPagesController/Classes/TBMainViewController.h; sourceTree = "<group>"; };
-		A677BCC021F08E2A006632F4 /* TBMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TBMainViewController.m; path = ../../TBTopPagesController/Classes/TBMainViewController.m; sourceTree = "<group>"; };
-		A677BCC121F08E2A006632F4 /* TBMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TBMainViewController.xib; path = ../../TBTopPagesController/Classes/TBMainViewController.xib; sourceTree = "<group>"; };
 		A677BCC421F0D715006632F4 /* TBAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAViewController.h; sourceTree = "<group>"; };
 		A677BCC521F0D715006632F4 /* TBAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAViewController.m; sourceTree = "<group>"; };
 		A677BCC721F0D720006632F4 /* TBBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBBViewController.h; sourceTree = "<group>"; };
 		A677BCC821F0D720006632F4 /* TBBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBBViewController.m; sourceTree = "<group>"; };
 		A677BCCA21F1A8F7006632F4 /* TBCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBCViewController.h; sourceTree = "<group>"; };
 		A677BCCB21F1A8F7006632F4 /* TBCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBCViewController.m; sourceTree = "<group>"; };
+		A677BCCE21F38338006632F4 /* TBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMainViewController.m; sourceTree = "<group>"; };
+		A677BCCF21F38338006632F4 /* TBMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBMainViewController.xib; sourceTree = "<group>"; };
+		A677BCD021F38338006632F4 /* TBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMainViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +145,9 @@
 			children = (
 				6003F59C195388D20070C39A /* TBAppDelegate.h */,
 				6003F59D195388D20070C39A /* TBAppDelegate.m */,
-				A677BCBF21F08E2A006632F4 /* TBMainViewController.h */,
-				A677BCC021F08E2A006632F4 /* TBMainViewController.m */,
-				A677BCC121F08E2A006632F4 /* TBMainViewController.xib */,
+				A677BCD021F38338006632F4 /* TBMainViewController.h */,
+				A677BCCE21F38338006632F4 /* TBMainViewController.m */,
+				A677BCCF21F38338006632F4 /* TBMainViewController.xib */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -297,7 +297,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				A677BCC321F08E2A006632F4 /* TBMainViewController.xib in Resources */,
+				A677BCD221F38339006632F4 /* TBMainViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,12 +386,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A677BCD121F38339006632F4 /* TBMainViewController.m in Sources */,
 				A677BCCC21F1A8F7006632F4 /* TBCViewController.m in Sources */,
 				A677BCC621F0D715006632F4 /* TBAViewController.m in Sources */,
 				6003F59E195388D20070C39A /* TBAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				A677BCC921F0D720006632F4 /* TBBViewController.m in Sources */,
-				A677BCC221F08E2A006632F4 /* TBMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
