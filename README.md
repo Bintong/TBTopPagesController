@@ -11,6 +11,8 @@ Perf
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+Not View . For ViewControllers
+
 ![GIF](https://github.com/Bintong/TBTopPagesController/blob/master/phone1.gif?raw=true)
 
 ## Requirements
