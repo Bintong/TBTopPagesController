@@ -5,9 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/TBTopPagesController.svg?style=flat)](https://cocoapods.org/pods/TBTopPagesController)
 [![Platform](https://img.shields.io/cocoapods/p/TBTopPagesController.svg?style=flat)](https://cocoapods.org/pods/TBTopPagesController)
 
+Perf
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+![GIF](https://github.com/Bintong/TBTopPagesController/blob/master/phone1.gif?raw=true)
 
 ## Requirements
 
