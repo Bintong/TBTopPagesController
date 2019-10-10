@@ -45,8 +45,8 @@
 - (instancetype)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
-        self.layer.cornerRadius  = frame.size.height / 10;
-        self.layer.masksToBounds = YES;
+//        self.layer.cornerRadius  = frame.size.height / 10;
+//        self.layer.masksToBounds = YES;
         self.backgroundColor = [UIColor whiteColor];
     }
     return self;
@@ -265,17 +265,18 @@
 /** 设置子视图控制器，这个方法必须在viewDidLoad方法里执行，否则子视图控制器各项属性为空 */
 - (void)setupViewControllers:(UIView *)fatherView
 {
-    CGFloat Y = 64;
+    
+    CGFloat top = 40 + [[UIApplication sharedApplication] statusBarFrame].size.height - 20;
     
     int vcWidth =  fatherView.frame.size.width;
-    int vcHeight = fatherView.frame.size.height - Y;
+    int vcHeight = fatherView.frame.size.height - top;
     
     int cnt = (int)self.controllers.count;
     for (int i = 0; i < cnt; i++) {
         UIViewController *vc = self.controllers[i];
         [self.superViewController addChildViewController:vc];
         
-        vc.view.frame = CGRectMake(vcWidth * i, 0, vcWidth, vcHeight);
+        vc.view.frame = CGRectMake(vcWidth * i, top , vcWidth, vcHeight);
         [self.contentScrollView addSubview:vc.view];
     }
 }
