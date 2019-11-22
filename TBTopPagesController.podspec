@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBTopPagesController'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '可切换导航栏'
 
 # This description is used to generate tags and improve search results.

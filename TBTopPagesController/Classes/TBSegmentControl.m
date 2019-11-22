@@ -245,7 +245,7 @@
 /** 设置scrollView */
 - (void)setupScrollView:(UIView *)fatherView;
 {
-    CGFloat Y = 64;
+    CGFloat Y = [[UIApplication sharedApplication] statusBarFrame].size.height + 44  + 40;
     
     int vcWidth =  fatherView.frame.size.width;
     int vcHeight = fatherView.frame.size.height - Y;
@@ -257,6 +257,7 @@
     scrollView.pagingEnabled = YES;
     scrollView.delegate      = self;
     [fatherView addSubview:scrollView];
+    
     self.contentScrollView = scrollView;
 }
 
@@ -266,7 +267,7 @@
 - (void)setupViewControllers:(UIView *)fatherView
 {
     
-    CGFloat top = 40 + [[UIApplication sharedApplication] statusBarFrame].size.height - 20;
+    CGFloat top = 44 + [[UIApplication sharedApplication] statusBarFrame].size.height ;
     
     int vcWidth =  fatherView.frame.size.width;
     int vcHeight = fatherView.frame.size.height - top;
@@ -276,7 +277,7 @@
         UIViewController *vc = self.controllers[i];
         [self.superViewController addChildViewController:vc];
         
-        vc.view.frame = CGRectMake(vcWidth * i, top , vcWidth, vcHeight);
+        vc.view.frame = CGRectMake(vcWidth * i, 0 , vcWidth, vcHeight);
         [self.contentScrollView addSubview:vc.view];
     }
 }
